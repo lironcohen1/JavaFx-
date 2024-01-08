@@ -2,7 +2,6 @@
 In this program we make a trivia game 
 
 Name - Liron Cohen
-ID - 206350399
 ****************************************************************/
 package Q1;
 
