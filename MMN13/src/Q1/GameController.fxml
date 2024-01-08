@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Q1.GameController">
+   <children>
+      <SplitPane dividerPositions="0.2135678391959799" orientation="VERTICAL" prefHeight="403.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label fx:id="questionLable" alignment="CENTER" layoutX="30.0" layoutY="14.0" prefHeight="59.0" prefWidth="539.0" text="Label" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="598.0">
+               <children>
+                  <SplitPane dividerPositions="0.5" layoutX="-2.0" layoutY="2.0" orientation="VERTICAL" prefHeight="257.0" prefWidth="600.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <SplitPane dividerPositions="0.49498327759197325" layoutX="1.0" layoutY="-5.0" prefHeight="160.0" prefWidth="600.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <Button fx:id="buttonNumberOne" layoutX="21.0" layoutY="34.0" mnemonicParsing="false" onAction="#pressedAnswerOne" prefHeight="70.0" prefWidth="250.0" text="Button" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <Button fx:id="buttonNumberTwo" layoutX="24.0" layoutY="29.0" mnemonicParsing="false" onAction="#pressedAnswerTwo" prefHeight="70.0" prefWidth="250.0" text="Button" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <SplitPane dividerPositions="0.4909090909090909" layoutY="-5.0" prefHeight="160.0" prefWidth="607.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <Button fx:id="buttonNumberThree" layoutX="22.0" layoutY="33.0" mnemonicParsing="false" onAction="#pressedAnswerThree" prefHeight="70.0" prefWidth="250.0" text="Button" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <Button fx:id="buttonNumberFour" layoutX="27.0" layoutY="33.0" mnemonicParsing="false" onAction="#pressedAnswerFour" prefHeight="70.0" prefWidth="250.0" text="Button" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <Button layoutX="488.0" layoutY="280.0" mnemonicParsing="false" onAction="#pressedNextQuestion" text="next question" />
+                  <Label fx:id="answerLable" alignment="CENTER" layoutX="167.0" layoutY="285.0" prefHeight="21.0" prefWidth="250.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</VBox>
