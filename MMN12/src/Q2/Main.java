@@ -2,7 +2,6 @@
 In this class we are creating various of bank accounts and making actions on them.
 
 Name - Liron Cohen
-ID - 206350399
 ************************************************************************************/
 package Q2;
 public class Main {
