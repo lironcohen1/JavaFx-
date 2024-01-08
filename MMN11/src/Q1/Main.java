@@ -6,7 +6,6 @@ until he will find all the letters that complete the word.
 
 
 Name - Liron Cohen
-ID - 206350399
 *****************************************************************************************/
 
 
