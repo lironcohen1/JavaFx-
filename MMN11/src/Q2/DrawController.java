@@ -4,7 +4,6 @@ this program draws 10 randomized shapes(including their random colors)
 when the user pressed on the button
 
 Name - Liron Cohen
-ID - 206350399
 ***********************************************************************/
 
 
