@@ -7,8 +7,6 @@ and after we get 2 polynomes from the user we run on them various of methods
 
 
 Name - liron cohen
-ID - 206350399
-
 **************************************************************************/
 
 
