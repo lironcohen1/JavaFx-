@@ -2,7 +2,6 @@
 In this program we make an user interface of calculator.
 
 Name - Liron Cohen
-ID - 206350399
 ******************************************************************************************/
 package Q2;
 
